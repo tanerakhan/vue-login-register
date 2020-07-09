@@ -1,0 +1,26 @@
+form {
+  .form-group {
+    .d-block {
+      color: #fff !important;
+    }
+  }
+
+  button {
+    display: flex !important;
+    justify-content: center;
+    width: 100%;
+    max-width: 160px;
+    margin: 20px auto auto auto;
+  }
+}
+
+.is-danger {
+  color: red;
+  margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+  #app {
+    padding: 10px;
+  }
+}
